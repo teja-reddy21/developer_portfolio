@@ -1,0 +1,77 @@
+/* Base styles */
+.nav_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a; /* Dark background */
+  padding: 16px 32px;
+  color: #fff;
+  
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo or heading */
+.nav_head .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00bcd4; /* Cyan accent */
+}
+
+/* Navigation list */
+.nav_head .content {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation items */
+.nav_head .content li {
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav_head .content li:hover {
+  color: #00bcd4;
+}
+
+/* Optional underline effect on hover */
+.nav_head .content li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: #00bcd4;
+  transition: width 0.3s ease;
+}
+
+.nav_head .content li:hover::after {
+  width: 100%;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+  .nav_head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav_head .content {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+  }
+}
+.icon{
+    size: 30px;
+    position: absolute;
+    top: 6;
+    right: 10;
+    transition: all;
+    
+}
