@@ -1,0 +1,27 @@
+/* src/components/Projects.css */
+.projects {
+  padding: 4rem 2rem;
+  background: #222;
+  color: white;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: #333;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
