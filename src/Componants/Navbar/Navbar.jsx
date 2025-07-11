@@ -1,40 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./navbar.css";
-import { RiCloseLine, RiMenu2Line } from '@remixicon/react';
+
 const Navbar = () => {
 
-  const [menu,setOpenMenu]=useState(false);
-  const [showMenu,setShowMenu]=useState(true);
+  
   return (
-    <nav className='nav_head'>
-        <span className='heading'>Portfolio</span>
-        <ul className={menu ? "content show" : "content hide"}>
-          
-          <a href='#about'>
-            <li>
-              About
-            </li>
-            </a>
-            <a href='#experience'>
-            <li>
-              Experience
-              </li>
-              </a>
-             <a href='#projects'>
-            <li>
-              Projects
-              </li>
-              </a>
-             <a href='#contact'>
-            <li>
-              Contact
-              </li>
-              </a>
-        </ul>
-        {showMenu ? (
-          <RiMenu2Line className='icon' onClick={()=>{setOpenMenu(!menu); setShowMenu(!showMenu)}} />
-        ): <RiCloseLine />}
-    </nav>
+      <nav className="navbar">
+      <h2 className="logo">My Portfolio</h2>
+      <ul className="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      </nav>
   )
 }
 
