@@ -1,7 +1,6 @@
-/* src/components/Skills.css */
 .skills {
-  padding: 4rem 2rem;
-  background: #eee;
+  padding: 2rem;
+  background-color:  #f0f8ff;
   text-align: center;
 }
 
@@ -10,13 +9,27 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  gap: 2rem;
   justify-content: center;
-  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
-.skill-list li {
-  background: #444;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 5px;
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-logo {
+  width: 30px;
+  height: 30px;
 }
