@@ -9,10 +9,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_95g1i6u',        // Replace with your actual Service ID
-      'template_t52n4i9',       // Replace with your actual Template ID
+         import.meta.env.VITE_EMAILJS_SERVICE_ID,
+         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,   
       form.current,
-      '3jFpbBhobIrI9qJDy'         // Replace with your Public Key (not secret key!)
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY    // Replace with your Public Key (not secret key!)
     )
     .then((result) => {
       alert('Message sent successfully!');
