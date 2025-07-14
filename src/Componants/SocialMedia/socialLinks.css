@@ -1,0 +1,15 @@
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* LinkedIn Blue */
+}
