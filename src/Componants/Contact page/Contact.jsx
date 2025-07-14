@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
+import SocialLinks from '../SocialMedia/SocialLinks';
 
 const Contact = () => {
   const form = useRef();
@@ -32,6 +33,7 @@ const Contact = () => {
         <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
         <button type="submit">Send Message</button>
       </form>
+      <SocialLinks/>
     </section>
   );
 };
