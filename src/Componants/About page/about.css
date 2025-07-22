@@ -16,3 +16,25 @@
   margin: 0 auto;
   line-height: 1.6;
 }
+
+.education {
+  margin-top: 2rem;
+  
+}
+
+.education h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.education ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education li {
+  margin-bottom: 1rem;
+  background: #f7f7f7;
+  padding: 1rem;
+  border-radius: 8px;
+}
