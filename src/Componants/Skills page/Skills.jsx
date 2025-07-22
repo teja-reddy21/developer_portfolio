@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css'
-
+import { motion } from 'framer-motion';
 // import skill logos
 import reactLogo from '../../assets/icons/react.png'
 import jsLogo from '../../assets/icons/js.png'
@@ -23,13 +23,24 @@ const skills = [
 const Skills = () => {
   return (
       <section id="skills" className="skills">
-      <h2>Skills</h2>
+         <motion.h2
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >  Skills</motion.h2>
       <ul className="skill-list">
        {skills.map((skill, index) => (
-          <li key={index} className="skill-item">
+           <motion.div
+            key={index}
+            className="skill-item"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.1, duration: 0.5 }}
+            whileHover={{ scale: 1.05 }}
+          >
             <img src={skill.logo} alt={`${skill.name} logo`} className="skill-logo" />
             <span>{skill.name}</span>
-            </li>
+            </motion.div>
        ))}
       </ul>
     </section>
