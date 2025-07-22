@@ -25,6 +25,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <section id="contact" className="contact">
       <h2>Contact Me</h2>
       <form ref={form} onSubmit={sendEmail} className="contact-form">
@@ -33,8 +34,15 @@ const Contact = () => {
         <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
         <button type="submit">Send Message</button>
       </form>
-      <SocialLinks/>
+     
     </section>
+    <footer>
+      <SocialLinks/>
+       <a href="#home" className="back-to-top" title="Go to top">
+    ↑
+  </a>
+    </footer>
+    </>
   );
 };
 
