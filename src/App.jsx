@@ -6,15 +6,20 @@ import Navbar from "./Componants/Navbar/Navbar";
 import Projects from "./Componants/Projects page/Projects";
 import Skills from "./Componants/Skills page/Skills";
 import './index.css'
-
+import { motion } from "framer-motion";
 function App() {
   
 
   return (
     <>
       <div>
-            <Navbar/>
+             <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    ></motion.div>
       <Home/>
+        <Navbar/>
       <About/>
       <Projects/>
       <Skills/>
