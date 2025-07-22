@@ -28,7 +28,7 @@
   border-radius: 6px;
   outline: none;
   transition: border-color 0.3s ease;
-  background-color: white;
+  background-color: rgb(14, 12, 12);
 }
 
 .contact-form input:focus,
@@ -50,4 +50,33 @@
 
 .contact-form button:hover {
   background-color: #043f7e;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  background-color: #f8f8f8;
+}
+
+.back-to-top {
+  display: inline-block;
+  font-size: 2rem;
+  color: #6c5ce7;
+  text-decoration: none;
+  margin-top: 1rem;
+  animation: floatUpDown 2s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.back-to-top:hover {
+  transform: translateY(-5px);
+}
+
+
+@keyframes floatUpDown {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
 }
