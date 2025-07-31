@@ -1,8 +1,8 @@
 /* src/components/About.css */
 .about {
   padding: 4rem 2rem;
-  background: #fff5e1;;
-  color: #333;
+ background-image: url('../../assets/bg_image.jpg');
+  color: white;
   text-align: center;
 }
 
@@ -16,6 +16,10 @@
   margin: 0 auto;
   line-height: 1.6;
 }
+ .resume-btn {
+  margin-top: 2rem;
+  justify-content: center;
+ }
 
 .education {
   margin-top: 2rem;
@@ -34,7 +38,7 @@
 
 .education li {
   margin-bottom: 1rem;
-  background: #f7f7f7;
+  background: #090303;
   padding: 1rem;
   border-radius: 8px;
 }
