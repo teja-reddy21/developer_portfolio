@@ -23,15 +23,13 @@ const Skills = () => {
   return (
     <section id="skills" className="skills">
       <h2>Skills</h2>
-      <div className="marquee-container">
-        <div className="marquee-track">
-          {[...skills, ...skills].map((skill, index) => ( // duplicate for smooth loop
-            <div key={index} className="marquee-item">
-              <img src={skill.logo} alt={skill.name} />
-              <span>{skill.name}</span>
-            </div>
-          ))}
-        </div>
+      <div className="skills-grid">
+        {skills.map((skill, index) => (
+          <div key={index} className="skill-item">
+            <img src={skill.logo} alt={skill.name} />
+            <span>{skill.name}</span>
+          </div>
+        ))}
       </div>
     </section>
   );
