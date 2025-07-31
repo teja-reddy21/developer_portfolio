@@ -12,7 +12,7 @@
 }
 
 /* Hide it on mobile (screen width less than 768px) */
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .hide-on-mobile {
     display: none !important;
   }
