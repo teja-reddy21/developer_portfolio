@@ -7,7 +7,7 @@ const aboutVariants = {
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 0.6, ease: "easeOut" }
+    transition: { duration: 0.8, ease: "easeOut" }
   }
 };
 
@@ -23,7 +23,7 @@ const About = () => {
       whileInView="visible"
       viewport={{ once: false, amount: 0.3 }} // 👈 plays every time in view
     >
-      <h3>LET ME INTRODUCE MYSELF</h3>
+      <h3>LET  ME  INTRODUCE  MYSELF</h3>
       <h2>About Me</h2>
       <p>
         "I'm a passionate frontend developer with a strong foundation in React JS and modern web technologies. I enjoy transforming ideas into user-friendly, responsive web applications that deliver great user experiences. My expertise lies in building scalable and clean interfaces using JavaScript, HTML, CSS, and React.
@@ -41,7 +41,7 @@ When I'm not coding, I love exploring open-source projects, watching tech tutori
           </li>
            </ul>
       </div>
-       <a href='/web developer.pdf' download className='resume-btn'>Download Resume</a>
+       <a href='/Teja_web_developer.pdf' download className='resume-btn'>Download Resume</a>
        </motion.section>
     </section>
   )
