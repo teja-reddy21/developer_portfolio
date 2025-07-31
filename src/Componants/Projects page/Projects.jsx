@@ -3,7 +3,7 @@ import './projects.css'
 import { motion } from "framer-motion";
 // local images
 import ecommerceImg from '../../assets/landing-page.jpg'
-import youtubeCloneImg from '../../assets/youtube_image.jpg'
+import chatbot from '../../assets/chatbot.jpg'
 import ToDoListImg from '../../assets/to-do-list.jpg'
 import onlineCartImg from '../../assets/online shopping.jpg'
 
@@ -34,10 +34,10 @@ const projectData = [
   
   },
   {
-    title: "Youtube Clone",
-    description: "A responsive YouTube-inspired video streaming application built using React JS and integrated with the YouTube Data API",
-    image: youtubeCloneImg,
-    github:"https://github.com/teja-reddy21/youtube-clone",
+    title: "Chatbot Negotiation",
+    description: "A Chatbot Negotiation System is an intelligent conversational interface integrated into an e-commerce platform that allows users to negotiate the price of a product in real time. Instead of fixed pricing, the system simulates human-like bargaining behavior using predefined logic or AI models.",
+    image: chatbot,
+    github:"https://github.com/teja-reddy21/chatbot-negotiation",
 
   },
   {
