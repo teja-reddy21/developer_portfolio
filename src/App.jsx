@@ -5,6 +5,7 @@ import Home from "./Componants/Home page/Home";
 import Navbar from "./Componants/Navbar/Navbar";
 import Projects from "./Componants/Projects page/Projects";
 import Skills from "./Componants/Skills page/Skills";
+import SlideSectionNav from "./Componants/SlideSectionNav";
 import './index.css'
 import { motion } from "framer-motion";
 function App() {
@@ -18,6 +19,8 @@ function App() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     ></motion.div>
+
+    <SlideSectionNav/>
       <Home/>
         <Navbar/>
       <About/>

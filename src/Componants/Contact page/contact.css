@@ -1,14 +1,14 @@
 /* Container Section */
 .contact {
-  padding: 3rem 1.5rem;
-  background-color: #f9f9f9;
+  padding: 10rem;
+  background-image: url('../../assets/bg_image.jpg');
   text-align: center;
 }
 
 .contact h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #333;
+  color: white;
 }
 
 /* Contact Form Styling */
