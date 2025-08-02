@@ -42,3 +42,31 @@
   padding: 1rem;
   border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+  .about {
+    padding: 2.5rem 1rem;
+  }
+
+  .about h2 {
+    font-size: 1.5rem;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+
+  .education h3 {
+    font-size: 1.25rem;
+  }
+
+  .education li {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+  }
+
+  .resume-btn {
+    margin-top: 1.5rem;
+  }
+}

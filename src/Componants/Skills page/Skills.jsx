@@ -8,7 +8,8 @@ import CssLogo from '../../assets/icons/Web Css.png';
 import gitLogo from '../../assets/icons/git.png';
 import gitHubLogo from '../../assets/icons/github.png';
 import responsiveLogo from '../../assets/icons/responsive.png';
-
+import phplogo from '../../assets/icons/php.png';
+import sqllogo from '../../assets/icons/sql.png';
 const skills = [
   { name: "React JS", logo: reactLogo },
   { name: "JavaScript", logo: jsLogo },
@@ -17,6 +18,8 @@ const skills = [
   { name: "Git", logo: gitLogo },
   { name: "GitHub", logo: gitHubLogo },
   { name: "Responsive Design", logo: responsiveLogo },
+  {name: "PHP",  logo: phplogo},
+   {name: "SQL",  logo: sqllogo},
 ];
 
 const Skills = () => {

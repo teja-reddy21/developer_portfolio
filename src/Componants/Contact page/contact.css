@@ -81,3 +81,33 @@ footer {
   50%  { transform: translateY(-5px); }
   100% { transform: translateY(0); }
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 4rem 2rem;
+  }
+
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-form {
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+    padding: 0.6rem 0.9rem;
+  }
+
+  .contact-form button {
+    font-size: 0.95rem;
+    padding: 0.6rem;
+  }
+
+  .back-to-top {
+    font-size: 1.5rem;
+  }
+}
