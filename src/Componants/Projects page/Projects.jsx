@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 // local images
 import ecommerceImg from '../../assets/landing-page.jpg'
 import chatbot from '../../assets/chatbot.jpg'
-import ToDoListImg from '../../assets/to-do-list.jpg'
+import typing_speed from '../../assets/typing speed.jpg'
 import onlineCartImg from '../../assets/online shopping.jpg'
 
 const cardVariants = {
@@ -20,10 +20,10 @@ const cardVariants = {
 
 const projectData = [
   {
-    title: "To-Do-List app",
-    description: "A simple and efficient To-Do List application built using React JS. Users can add, delete, and mark tasks as completed. The app uses React state management for dynamic updates and offers a clean, minimal UI. Tasks persist during the session using local state ",
-    image: ToDoListImg,
-    github: "https://github.com/teja-reddy21/To-Do-app",
+    title: "Typing speed App",
+    description: "The Typing Speed Test App is a web application built to help users practice and improve their typing speed and accuracy. It provides an interactive platform where users can test their typing skills by typing randomly generated sentences within a fixed time limit. ",
+    image: typing_speed,
+    github: "https://github.com/teja-reddy21/typing_test",
 
   },
   {
