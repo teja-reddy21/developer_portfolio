@@ -2,7 +2,7 @@ import React from 'react'
 import './projects.css'
 import { motion } from "framer-motion";
 // local images
-import ecommerceImg from '../../assets/landing-page.jpg'
+import weather_App from '../../assets/weather-template.jpg'
 import chatbot from '../../assets/chatbot.jpg'
 import typing_speed from '../../assets/typing speed.jpg'
 import onlineCartImg from '../../assets/online shopping.jpg'
@@ -41,10 +41,10 @@ const projectData = [
 
   },
   {
-     title: "E-commerce page",
-    description: "A responsive and modern e-commerce landing page designed to showcase featured products, promotional offers, and brand identity. Built using React JS and custom CSS.",
-    image: ecommerceImg,
-    github: "https://github.com/teja-reddy21/page-loading",
+     title: "Weather App",
+    description: "A simple and responsive weather application built using React JSIt allows users to search for real-time weather updates of any city around the world. The app fetches data from a weather API and displays information like:Wind speed, humidity,city-name and temperature",
+    image: weather_App,
+    github: "https://github.com/teja-reddy21/weather-App",
    
   }
 ];
