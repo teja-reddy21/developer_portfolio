@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
-import profileImg from '../../assets/profile.jpg';
+// import profileImg from '../../assets/profile.jpg';
+import tejaImg from '../../assets/teja.jpg';
 import { motion } from "motion/react"
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
             
         >
           <div className='profile-pic-container'>
-            <img src={profileImg} alt='Teja Profile' className='profile-pic' />
+            <img src={tejaImg} alt='Teja Profile' className='profile-pic' />
           </div>
         </motion.div>
         
